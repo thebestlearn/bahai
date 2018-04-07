@@ -1,0 +1,33 @@
+@import '../../assets/css/common.wxss';
+page {
+    background-color: #fff
+}
+.commod-box{
+  padding: 20rpx 30rpx;
+  border-bottom:  1rpx solid #e8e8e8;
+}
+.commod-box .background{
+  display: inline-block;
+  width: 160rpx;
+  height: 160rpx;
+  margin-right: 20rpx;
+}
+.commod-box .commodword,.commodnum{
+  font-size: 24rpx;
+  color: #7f8085;
+  line-height: 1.5
+}
+.commodCon{
+  position: relative;
+}
+.commodCon .commodword{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  display: -webkit-box; /** 对象作为伸缩盒子模型显示 **/
+  -webkit-box-orient: vertical; /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+  -webkit-line-clamp: 2; /** 显示的行数 **/
+  overflow: hidden;  /** 隐藏超出的内容 **/
+}

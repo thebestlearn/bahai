@@ -1,0 +1,41 @@
+<view class="container">
+  <scroll-view lower-threshold="150" scroll-y="true" class="scroll-conteiner" style="height:100%;">
+    <navigator url="../musicList2/musicList2" hover-class="none" class="commod-box flex-h">
+        <view class="background">
+            <image class="ml" src="../../assets/images/img2.png"></image>
+        </view>
+        <view class='flex1 commodCon'>
+            <view class='flex-h'><text class="commodname flex1 omit">和平之王和平之王和平之王和平之王和平之王</text><label class='commodnum'>12首</label></view>
+            <view class="commodword">恭贺巴哈欧拉诞辰200周年！恭贺巴哈欧拉诞辰200周年！</view>
+        </view>
+        
+    </navigator>
+
+    <navigator url="" hover-class="none" class="commod-box flex-h">
+        <view class="background">
+            <image class="ml" src="../../assets/images/img2.png"></image>
+        </view>
+        <view class='flex1 commodCon'>
+            <view class='flex-h'><text class="commodname flex1 omit">和平之王和平之王和平之王和平之王和平之王</text><label class='commodnum'>12首</label></view>
+            <view class="commodword">恭贺巴哈欧拉诞辰200周年！恭贺巴哈欧拉诞辰200周年！</view>
+        </view>
+        
+    </navigator>
+
+    <navigator url="" hover-class="none" class="commod-box flex-h">
+        <view class="background">
+            <image class="ml" src="../../assets/images/img2.png"></image>
+        </view>
+        <view class='flex1 commodCon'>
+            <view class='flex-h'><text class="commodname flex1 omit">和平之王和平之王和平之王和平之王和平之王</text><label class='commodnum'>12首</label></view>
+            <view class="commodword">恭贺巴哈欧拉诞辰200周年！恭贺巴哈欧拉诞辰200周年！</view>
+        </view>
+        
+    </navigator>
+  </scroll-view>
+  <!-- <view class="body-view">
+    <loading hidden="{{hidden}}" bindchange="loadingChange">
+      加载中...
+    </loading>
+  </view> -->
+</view>

@@ -1,0 +1,24 @@
+<view class="container height-p-100">
+  <navigator url="../audio/audio" hover-class="none" class="row flex-h">
+      <view class="title flex1 omit">这是信仰这是信仰这是信仰这是信仰这是信仰这是信仰这是信仰这是信仰</view>
+      <view class="time">3'34''</view>
+  </navigator>
+
+  <navigator url="../audio/audio" hover-class="none" class="row flex-h">
+      <view class="title flex1 omit">这是信仰这是信仰这是信仰这是信仰这是信仰这是信仰这是信仰这是信仰</view>
+      <view class="time">3'34''</view>
+  </navigator>
+  <navigator url="../audio/audio" hover-class="none" class="row flex-h">
+      <view class="title flex1 omit">这是信仰这是信仰这是信仰这是信仰这是信仰这是信仰这是信仰这是信仰</view>
+      <view class="time">3'34''</view>
+  </navigator>
+  <navigator url="../audio/audio" hover-class="none" class="row flex-h">
+      <view class="title flex1 omit">这是信仰这是信仰这是信仰这是信仰这是信仰这是信仰这是信仰这是信仰</view>
+      <view class="time">3'34''</view>
+  </navigator>
+  <navigator url="../audio/audio" hover-class="none" class="row flex-h">
+      <view class="title flex1 omit">这是信仰这是信仰这是信仰这是信仰这是信仰这是信仰这是信仰这是信仰</view>
+      <view class="time">3'34''</view>
+  </navigator>
+  
+</view>

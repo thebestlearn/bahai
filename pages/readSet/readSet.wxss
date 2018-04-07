@@ -1,0 +1,39 @@
+@import '../../assets/css/common.wxss';
+
+.readPenel{
+	background-color:#fff;
+	padding:40rpx;
+	border-bottom:1rpx #e8e8e8 solid;
+	margin-bottom:20rpx;
+}
+.readPenel .img{
+	width:150rpx;
+	height:205rpx;
+	margin-right:40rpx;
+}
+.readPenel .title{
+	font-size:30rpx;
+	color:#000;
+}
+.readPenel text{
+	font-size:24rpx;
+	color:#7f8085;
+	margin-top:80rpx;
+	line-height:1.5
+}
+
+.commod-box{
+	background-color:#fff;
+	line-height:96rpx;
+	border-bottom:1rpx #e8e8e8 solid;
+	padding:0 40rpx;
+}
+.commod-box .num{
+	font-size:30rpx;
+	display:inline-block;
+	width:60rpx;
+}
+.commod-box .commodname{
+	color:#000;
+	font-size:30rpx;
+}

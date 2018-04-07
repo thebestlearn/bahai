@@ -1,0 +1,38 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="searchbox pr">
+    <image class="iconfont" src='../../assets/images/search.png'></image>
+    <input type="text" name="" placeholder="搜索条件" />
+  </view>
+  <swiper class="swiper" indicator-dots="true" autoplay="true" circular="true" interval="5000" duration="250">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class='wx-pannel '>
+    <view class="wx-title">巴哈欧拉</view>
+    <view class="cl" style=" white-space: nowrap;">
+        <navigator hover-class="none" wx:for="{{contents}}" wx:for-item="item" wx:if="{{item.author_cn== '巴哈欧拉'}}" class="commod-box" url="../prayer/prayer?book_id={{item.id}}">
+            <view class="background">
+                <image class="ml" src="https://api.baha.site/images/books/{{item.id}}.jpg"></image>
+            </view>
+            <text class="commodname omit">{{item.name_cn}}</text>
+        </navigator>
+    </view>
+  </view>
+
+  <view class='wx-pannel '>
+    <view class="wx-title">阿博都-巴哈</view>
+    <view class="cl" style=" white-space: nowrap;">
+        <navigator hover-class="none" wx:for="{{contents}}" wx:for-item="item" wx:if="{{item.author_cn== '阿博都-巴哈'}}" class="commod-box" url="../prayer/prayer?book_id={{item.id}}">
+            <view class="background">
+                <image class="ml" src="https://api.baha.site/images/books/{{item.id}}.jpg"></image>
+            </view>
+            <text class="commodname omit">{{item.name_cn}}</text>
+        </navigator>
+    </view>
+  </view>
+
+</view>

@@ -1,0 +1,13 @@
+<import src="../wxParse/wxParse.wxml"/>
+<view class="container">
+	<view class="tabar flex-h">
+		<view class="flex1"><text class="on">中文</text></view>
+		<view class="flex1"><text>中英双语</text></view>
+		<view class="flex1"><text>英文</text></view>
+	</view>
+	<scroll-view scroll-y="true" style="height:{{winHeight - 50}}px">
+		<!-- 这一块是富文本 显示的内容区 -->
+  		<template is="wxParse" data="{{wxParseData:article.nodes}}"/>
+	</scroll-view>
+  
+</view>

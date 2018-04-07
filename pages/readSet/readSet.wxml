@@ -1,0 +1,16 @@
+<view class="container height-p-100">
+	<view class="readPenel flex-h">
+		<view class="img">
+			<image class="ml" src="../../assets/images/img3.png"></image>
+		</view>		
+		<view class="flex1">
+			<view class="title omit">巴哈欧拉书简集</view>
+			<text>武器会玩秦皇岛维护好哦啊是哦青剑湖花地湾</text>
+		</view>
+	</view>
+	<scroll-view scroll-y="true" style="height:{{winHeight - 153}}px">
+		<navigator hover-class="none" class="commod-box" url="../details/details">
+            <label class="commodname"><text class="num">1.</text>亚哥达斯经</label>
+        </navigator>
+	</scroll-view>
+</view>
